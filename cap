@@ -1,0 +1,14 @@
+import string
+
+
+def to_jaden_case(str1):
+    return string.capwords(str1)
+
+
+print(to_jaden_case("How can mirrors be real if our eyes aren't real"))
+# out : How Can Mirrors Be Real If Our Eyes Aren't Real
+
+# OR
+
+# def toJadenCase(string):
+#     return ' '.join(x.capitalize() for x in string.split())
